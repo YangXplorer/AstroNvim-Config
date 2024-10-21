@@ -51,8 +51,8 @@ return {
         ["[b"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
   
         -- Ctrl + j/k to move lines
-        ["<C-u>"] = { "5j", desc = "Move line down" },
-        ["<C-i>"] = { "5k", desc = "Move line up" },
+        ["<C-j>"] = { "5j", desc = "Move line down" },
+        ["<C-k>"] = { "5k", desc = "Move line up" },
 
         -- mappings seen under group name "Buffer"
         ["<Leader>bd"] = {
