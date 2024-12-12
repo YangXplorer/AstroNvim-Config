@@ -37,11 +37,12 @@ return {
         dashboard.button("q", "  Quit", ":qa<CR>"),
         dashboard.button("m", "󱌣  Mason", ":Mason<CR>"),
         dashboard.button("u", "󰂖  Update plugins", "<cmd>lua require('lazy').sync()<CR>"),
-        dashboard.button("d", "  datahub", ":cd ~/Projects/Python/datahub-backend/ | :edit .<CR>"),
-        dashboard.button("h", "  neohub", ":cd ~/Projects/NeoHub/NeoHub/ | :edit .<CR>"),
-        dashboard.button("b", "  backend", ":cd ~/Projects/NeoHub/NeoHub-Backend/ | :edit .<CR>"),
-        dashboard.button("l", "  learning", ":cd ~/Projects/Learning/ | :edit .<CR>"),
-        dashboard.button("v", "  astronvim", ":cd ~/.config/nvim/ | :edit .<CR>"),
+        dashboard.button("d", "  Datahub", ":cd ~/Projects/Python/datahub-backend/ | :edit .<CR>"),
+        dashboard.button("n", "  NeoHub", ":cd ~/Projects/NeoHub/NeoHub/ | :edit .<CR>"),
+        dashboard.button("o", "  OffiHub", ":cd ~/Projects/NeoHub/OffiHub/ | :edit .<CR>"),
+        dashboard.button("b", "  Backend", ":cd ~/Projects/NeoHub/NeoHub-Backend/ | :edit .<CR>"),
+        dashboard.button("l", "  Learning", ":cd ~/Projects/Learning/ | :edit .<CR>"),
+        dashboard.button("v", "  Astronvim", ":cd ~/.config/nvim/ | :edit .<CR>"),
       }
 
       -- 设置 footer
