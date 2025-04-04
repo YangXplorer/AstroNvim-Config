@@ -1,7 +1,10 @@
 if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- You can also add or configure plugins by creating files in this `plugins/` folder
+<<<<<<< HEAD
 -- PLEASE REMOVE THE EXAMPLES YOU HAVE NO INTEREST IN BEFORE ENABLING THIS FILE
+=======
+>>>>>>> 99f988e (first commit)
 -- Here are some examples:
 
 ---@type LazySpec
@@ -18,6 +21,7 @@ return {
 
   -- == Examples of Overriding Plugins ==
 
+<<<<<<< HEAD
   -- customize dashboard options
   {
     "folke/snacks.nvim",
@@ -40,6 +44,28 @@ return {
         },
       },
     },
+=======
+  -- customize alpha options
+  {
+    "goolord/alpha-nvim",
+    opts = function(_, opts)
+      -- customize the dashboard header
+      opts.section.header.val = {
+        " █████  ███████ ████████ ██████   ██████",
+        "██   ██ ██         ██    ██   ██ ██    ██",
+        "███████ ███████    ██    ██████  ██    ██",
+        "██   ██      ██    ██    ██   ██ ██    ██",
+        "██   ██ ███████    ██    ██   ██  ██████",
+        " ",
+        "    ███    ██ ██    ██ ██ ███    ███",
+        "    ████   ██ ██    ██ ██ ████  ████",
+        "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
+        "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
+        "    ██   ████   ████   ██ ██      ██",
+      }
+      return opts
+    end,
+>>>>>>> 99f988e (first commit)
   },
 
   -- You can disable default plugins as follows:
